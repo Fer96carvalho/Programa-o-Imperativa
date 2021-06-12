@@ -30,7 +30,6 @@ DjsEDM.lastIndexOf("AVICII")
 // Procura uma informação mas de trás para frente e retorna a posição do iten no array
 console.log(DjsEDM.lastIndexOf("AVICII"))
 
-
 DjsEDM.join
 // lista todos os itens do array em string(texto) e você pode escolher o separador.
 console.log(DjsEDM.join())
