@@ -14,15 +14,22 @@ console.log("2- Contando números ímpares")
 
 for (let i=1; i<=10; i++){
     if (i%2 !== 0) { // Tive que ver um video sobre operadores para relembrar como faz para destacar os numeros impares.
-        console.log(i)
+        console.log(i);
     }
 }
+
+console.log('Segunda forma de gerar apenas numeros impares');
+for (let p=1; p<=10; p=p+2){
+    console.log(p);
+}
+
+//Criando uma tabuada
 
 console.log("3- Criando a Tabuada")
 
 for (let i= 1; i<11; i++){
     console.log("Tabuada do", i);
     for (let j = 1; j < 11; j++){
-        console.log(i+'x'+j+"="+(i*j)) //Tive que pesquisar para saber como seria feita a sintaxe da calculadora nessa ultima impressão
+        console.log(i+'x'+j+"="+(i*j)); //Tive que pesquisar para saber como seria feita a sintaxe da calculadora nessa ultima impressão
     }
 }
