@@ -23,15 +23,17 @@ function Microondas(prato,tempo){
     if (tempo<padrao) {
         console.log('Tempo insuficiente!!')
     }
-    else if (tempo=padrao){
+    else if (tempo>=padrao && tempo<9padrao*2)){
         console.log('Prato pronto, bom apetite!!!')
     }
-    else if (tempo=2*padrao){
+    else if (tempo>=(padrao*2) && tempo<(padrão*3)){
         console.log('A comida queimou')
     }
-    else if (tempo=3*padrao){
+    else if (tempo>=(padrao*3)){
         console.log('Kabum!!!')
     }
 }
 
-Microondas("Pipoca",10)
+Microondas("Pipoca",10);
+Microondas("Macarrao",22);
+Microondas("Feijao",22);
